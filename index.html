@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xilofone</title>
+    
+<style>
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25pt;
+  color: rgb(0, 0, 0);
+}
+
+#interface{
+  margin-left: 27%;
+  margin-top: 10%;
+}
+
+canvas{
+  border: 1px solid black;
+}
+body{
+    user-select: none;    
+}
+
+/* canvas:active{
+  background-color: rgba(160, 160, 160, 0.5);
+  transition: 70ms;
+} */
+
+#c{
+  background-color:  rgb(163, 82, 189);
+
+}
+
+#d{
+  background-color:  rgb(51, 99, 183);
+
+}
+
+#e{
+  background-color: rgb(45, 148, 189);
+}
+
+#f{
+  background-color: rgb(50, 126, 89);
+}
+
+#g{
+  background-color: rgb(65, 152, 78);
+}
+
+#a{
+  background-color: rgb(213, 187, 57);
+}
+
+#b{
+  background-color: rgb(228, 176, 33);
+}
+
+#c2{
+  background-color: rgb(219, 37, 37)
+}
+
+span{
+padding-left: 57px;
+}
+
+
+</style>
+<script src="piano.js"></script>
+</head>
+<body>
+
+    <div id="interface">
+    <canvas id="c" width="75" height="200" onmousedown="toca_do()"></canvas> 
+    <canvas id="d" width="75" height="200" onmousedown="toca_re()"></canvas>
+    <canvas id="e" width="75" height="200" onmousedown="toca_mi()"></canvas>
+    <canvas id="f" width="75" height="200" onmousedown="toca_fa()"></canvas>
+    <canvas id="g" width="75" height="200" onmousedown="toca_sol()"></canvas>
+    <canvas id="a" width="75" height="200" onmousedown="toca_la()"></canvas>
+    <canvas id="b" width="75" height="200" onmousedown="toca_si()"></canvas>  
+    <canvas id="c2" width="75" height="200" onmousedown="toca_do2()"></canvas>  
+    </div>
+   
+    <p align="center">
+    <span>C</span>
+    <span>D</span>
+    <span>E</span>
+    <span>F</span>
+    <span>G</span>
+    <span>A</span>
+    <span>B</span>
+    <span>C2</span>
+    </p>
+
+</body>
+</html>
