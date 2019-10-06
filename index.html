@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Xilofone</title>
-    
+    <script src="xilofone.js"></script>
 <style>
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -24,12 +24,7 @@ canvas{
 body{
     user-select: none;    
 }
-
-/* canvas:active{
-  background-color: rgba(160, 160, 160, 0.5);
-  transition: 70ms;
-} */
-
+/*
 #c{
   background-color:  rgb(163, 82, 189);
 
@@ -61,18 +56,21 @@ body{
 }
 
 #c2{
-  background-color: rgb(219, 37, 37)
+  background-color: rgb(219, 37, 37);
+} 
+*/
+canvas{
+ background-color: black; 
 }
-
 span{
 padding-left: 57px;
 }
 
 
 </style>
-<script src="piano.js"></script>
+
 </head>
-<body>
+<body onload="draw();">
 
     <div id="interface">
     <canvas id="c" width="75" height="200" onmousedown="toca_do()"></canvas> 
