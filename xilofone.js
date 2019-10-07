@@ -6,14 +6,14 @@ Sounds by: DANMITCH3LL
 https://freesound.org/people/DANMITCH3LL/
 */
 
-let Audio_do = new Audio("Notas/c.wav");
-let Audio_re = new Audio("Notas/d.wav");
-let Audio_mi = new Audio("Notas/e.wav");
-let Audio_fa = new Audio("Notas/f.wav");
-let Audio_sol = new Audio("Notas/g.wav");
-let Audio_la = new Audio("Notas/a.wav");
-let Audio_si = new Audio("Notas/b.wav");
-let Audio_do2 = new Audio("Notas/c2.wav");
+let Audio_do = new Audio("Notas/c.mp3");
+let Audio_re = new Audio("Notas/d.mp3");
+let Audio_mi = new Audio("Notas/e.mp3");
+let Audio_fa = new Audio("Notas/f.mp3");
+let Audio_sol = new Audio("Notas/g.mp3");
+let Audio_la = new Audio("Notas/a.mp3");
+let Audio_si = new Audio("Notas/b.mp3");
+let Audio_do2 = new Audio("Notas/c2.mp3");
 
 
 function draw(){
