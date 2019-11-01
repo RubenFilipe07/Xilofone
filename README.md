@@ -1,22 +1,4 @@
 # Xilofone
-<style>
-body{
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;       
-}    
-h1{
-color: rgb(4, 154, 255); 
-font-size: 23pt;
-}
-
-p{
-color: black;    
-}
-
-#citacao{
-font-size: 10pt;
-color: rgb(153, 153, 153);    
-}
-</style>
 <h1>Xilofone simples com html, css e javascript</h1> 
 
 <p><strong>Teclas:</strong> A,S,D,F,G,H,J e K ou 1,2,3,4,5,6,7 e 8  <br>
