@@ -4,44 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Xilofone</title>
     <script src="xilofone.js"></script>
-<style>
-body{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 25pt;
-  color: rgb(0, 0, 0);
-}
-
-#interface{
-  margin-left: 25%;
-  margin-top: 10%;
-}
-
-body{
-    user-select: none;    
-}
-
-canvas{
- background-color: black; 
- border: 1px solid black;
-}
-
-span{
- padding-left: 57px;
-}
-
-#notas{
- text-align: center;
- margin-right: 50px;
- margin-top: 80px; 
-}
-
-</style>
-
+     <title>Xilofone</title>
+    <link rel="stylesheet" id="css" href="estilo.css">
+   
+   <script>
+    if(screen.width <=559){
+   document.getElementById("css").href = "mobile.css"
+    }
+    </script>
+    
 </head>
 <body onload="draw();">
-
+   <h1 id="advertencia">Vire a tela</h1>
     <div id="interface">
     <canvas id="c" width="75" height="200" onmousedown="toca_do()"></canvas> 
     <canvas id="d" width="75" height="200" onmousedown="toca_re()"></canvas>
@@ -54,7 +29,7 @@ span{
     </div>
    
     <p id="notas">
-    <span>C</span>
+    <span id="first">C</span>
     <span>D</span>
     <span>E</span>
     <span>F</span>
