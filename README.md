@@ -6,6 +6,6 @@
 </p>       
 <img src="https://rubenfilipe07.github.io/imagens/xilofone.gif" alt="Xilofone" width="400px" >
 <p id="citacao">
-<strong>Sounds by:</strong>  <a href="https://freesound.org/people/DANMITCH3LL/">DANMITCH3LL</a> <br>
+<blockquote><strong>Sounds by:</strong>  <a href="https://freesound.org/people/DANMITCH3LL/">DANMITCH3LL</a> <br>
 Baixe o pacote de sons utilizado em: <a href="https://freesound.org/people/DANMITCH3LL/packs/14220/ ">https://freesound.org/people/DANMITCH3LL/packs/14220/</a>
-</p>
+</p></blockquote>
